@@ -1,0 +1,101 @@
+.header
+{
+	height:90vh;
+	width:100%;
+	background-image:url(../images/csi.jpg);
+	background-size:cover;
+	background-position:center;
+	display: flex;
+	position:relative;
+	flex-direction:column;
+	text-align:center;
+	font-size: 50%;
+	background-attachment: fixed;  
+}
+#logo-image
+{
+	height:10rem;
+	width:10rem;
+	padding:0 0 5% 0;
+}
+.container
+{
+	width:80%;
+	margin:auto;
+}
+.box-1 h1
+{
+	border-bottom:1px solid #000000;
+}
+.box-2 h1
+{
+	border-bottom:1px solid #000000;
+}
+.box-3 h1
+{
+	border-bottom:1px solid #000000;
+}
+.box-1
+{
+	background-color:#f4f4f4;
+	padding-right:5px;
+}
+.box-2
+{
+	background-color:#f4f4f4;
+	padding-right:5px;
+}
+.box-3
+{
+	background-color:#f4f4f4;
+	padding-right:5px;
+}
+a
+{
+	border:1px solid red;
+	color:red;
+	text-decoration:none; 
+}
+#btn1
+{
+	border:1px solid white;
+	background: white;
+	margin-right:10px;
+	padding:5px;
+	border-radius:2px;
+}
+#btn2
+{
+	border:1px solid white;
+	background: white;
+	padding:5px;
+	border-radius:2px;
+}
+#btn1:hover,#btn2:hover
+{
+	color:#000000;
+	background: red;
+}
+#copy-footer
+{
+	text-align: center;
+}
+#main-footer
+{
+	margin-top:30px;
+	background: #00695c;
+	height:10rem;
+	width:100%;
+	background-size:cover;
+	position:absolute;
+	display:flex;
+	flex-direction:column;
+	background-attachment:fixed;  
+	justify-content: center;
+	align-items: center; 
+}
+.box-5 a
+{
+	margin:10px;
+
+}
