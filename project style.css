@@ -23,6 +23,11 @@
 	width:80%;
 	margin:auto;
 }
+#round
+{
+	background: #555555;
+
+}
 .box-1 h1
 {
 	border-bottom:1px solid #000000;
@@ -59,22 +64,22 @@ a
 #btn1
 {
 	border:1px solid white;
-	background: white;
+	background: red;
 	margin-right:10px;
 	padding:5px;
-	border-radius:2px;
+	border-radius:5px;
 }
 #btn2
 {
 	border:1px solid white;
-	background: white;
+	background: red;
 	padding:5px;
-	border-radius:2px;
+	border-radius:5px;
 }
 #btn1:hover,#btn2:hover
 {
 	color:#000000;
-	background: red;
+	background: blue	;
 }
 #copy-footer
 {
@@ -92,10 +97,9 @@ a
 	flex-direction:column;
 	background-attachment:fixed;  
 	justify-content: center;
-	align-items: center; 
+	
 }
 .box-5 a
 {
 	margin:10px;
-
 }
