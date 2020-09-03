@@ -97,7 +97,7 @@ a
 	flex-direction:column;
 	background-attachment:fixed;  
 	justify-content: center;
-	
+	align-items: center; 
 }
 .box-5 a
 {
